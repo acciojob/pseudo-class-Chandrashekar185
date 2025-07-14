@@ -1,20 +1,18 @@
-/*  your css code here. If applicable */
 #container {
-  margin: 20px;
-  font-size: 16px;
-  position: relative;
+    margin: 20px;
+    position: relative; 
 }
 
 #container::before {
-  content: "Before Content - Special Text";
-  color: #f00;
-  font-size: 20px;
-  display: block;
+    content: "Before text"; 
+    color: #f00;
+    font-size: 20px;
+    display: block; 
 }
 
 #container::after {
-  content: "After Content - Special Text";
-  color: #f00;
-  font-size: 20px;
-  display: block;
+    content: "After text"; 
+    color: #f00;
+    font-size: 20px;
+    display: block; 
 }
